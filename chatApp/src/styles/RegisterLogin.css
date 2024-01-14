@@ -6,11 +6,12 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: Ubuntu, sans-serif;
-    color: #ededed;
+    
 }
 h1{
     font-size: 2.5rem;
     margin-bottom: 3rem;
+    color: #ededed;
 }
 .register-page{
    height:100vh;
@@ -63,7 +64,7 @@ input{
         color:aliceblue;
     }
 }
-button{
+.sign{
     padding: 15px 20px;
     border-radius: 5px;
     width: 60%;
@@ -75,7 +76,7 @@ button{
     cursor: pointer;
     transition: background-color 500ms ;
 }
-button:hover{
+.sign:hover{
     background-color: rgba(96, 10, 176, 0.791);
     transform: scale(1.02);
     

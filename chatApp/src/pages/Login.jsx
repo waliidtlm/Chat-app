@@ -13,7 +13,7 @@ function Login() {
         <input type="email" placeholder='Email' />
         <input type="password" placeholder='Password' />
         
-        <button>Sign in</button>
+        <button className='sign'>Sign in</button>
         <p>You don't have an account ? Register Here </p>
       </form>
     </div>

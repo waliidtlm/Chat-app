@@ -9,7 +9,7 @@ function Register() {
 <div className='register-page'>
 <div className="container">
 <div className="banner">
-  <img src="" alt="" />
+  
 </div>
   <form action="" className='form'>
     <h1>Create Account</h1>
@@ -21,7 +21,7 @@ function Register() {
     <FcAddImage size={50}/> Add Avatar
     
     </label>
-    <button>Sign Up</button>
+    <button className='sign'>Sign Up</button>
     <p>You have an account ? Login Here </p>
   </form>
 </div>

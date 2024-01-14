@@ -1,0 +1,36 @@
+.logout{
+    width: fit-content;
+    height: fit-content;
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #ffffffe8;
+    cursor: pointer;
+}
+.logout:hover{
+    background-color:#ffffff93 ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background-color: #113f67;
+    color:#e7eaf6;
+}
+.info{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    align-items: center;
+    justify-content: end; 
+}
+.img-container{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}

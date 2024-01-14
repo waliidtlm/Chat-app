@@ -1,0 +1,13 @@
+.top-bar{
+    background-color:#38598b;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: #ededed;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+}

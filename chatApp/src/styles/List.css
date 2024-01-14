@@ -1,0 +1,23 @@
+.list{
+overflow: auto;
+}
+.user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 35px 10px;
+    height: 60px;
+    cursor: pointer;
+}
+.user:hover{
+    background-color: #113f67;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+img{
+    height: 50px;
+}
