@@ -1,0 +1,39 @@
+
+.messages{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    height: fit-content;
+   
+}
+.msg-avatar{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+}
+.user-msg{
+    padding: 10px;
+    background-color: #113f67;
+    border-radius: 0 8px 8px 8px;
+    border: none;
+    max-width: 70%;
+    color: white;
+}
+.messages.received{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+    padding: 10px;
+    height: fit-content;
+}
+.user-msg.received{
+    padding: 10px;
+    background-color: #113f6737;
+    border-radius: 0 8px 8px 8px;
+    border: none;
+    max-width: 70%;
+    color: #113f67;
+}

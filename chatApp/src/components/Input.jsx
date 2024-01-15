@@ -8,16 +8,22 @@ import { MdSend } from "react-icons/md";
 
 function Input() {
   return (
-    <div className='bottom'>
-      <input type="text" placeholder='Write Something'  className='bottom-input'/>
+    <div className="bottom">
+      <input
+        type="text"
+        placeholder="Write Something"
+        className="bottom-input"
+      />
 
       <div className="input-icons">
-      <IoMdAddCircleOutline size={30}/>
-      <MdOutlineAddPhotoAlternate size={30}/>
-      <MdSend size={30}/>
+        <input type="file" id="send-img" style={{ display: "none" }} />
+        <label htmlFor="send-img" className="add-icon">
+          <MdOutlineAddPhotoAlternate size={30} />
+        </label>
+        <MdSend size={30} />
       </div>
     </div>
-  )
+  );
 }
 
 export default Input

@@ -1,5 +1,18 @@
 .conversation{
     height: 68vh;
-    
+    overflow-y: scroll;
     background-color: #e7eaf6;
+}
+::-webkit-scrollbar {
+    width: .5rem;
+}
+::-webkit-scrollbar-track {
+    background-color: #e7eaf6;
+    border-radius: 8px;
+    margin-block: .2rem;
+
+}
+::-webkit-scrollbar-thumb {
+    background-color: #38598b;
+    border-radius: 8px;
 }

@@ -7,9 +7,13 @@
 }
 .bottom-input{
     background-color: #113f676d;
-    width: 80%;
+    width: 90%;
 }
 .input-icons{
     gap: 20px;
     display: flex;
+    padding: 0 5px;
+}
+.add-icon{
+    cursor: pointer;
 }

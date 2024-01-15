@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Navbar.css"
+import { IoIosLogOut } from "react-icons/io";
 
 function Navbar() {
   return (
@@ -12,7 +13,8 @@ function Navbar() {
         <img src="https://images.pexels.com/photos/7949632/pexels-photo-7949632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
        </div>
         <h3>Walid Tlem</h3>
-        <button className="logout">Logout</button>
+        {/* <button className="logout"><IoIosLogOut /></button> */}
+        <IoIosLogOut size={30} />
       </div>
     </div>
   );
