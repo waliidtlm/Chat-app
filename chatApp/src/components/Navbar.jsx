@@ -22,7 +22,7 @@ function Navbar() {
         <h3>{currentUser.displayName}</h3>
         {/* <button className="logout"><IoIosLogOut /></button> */}
         <a href="#" onClick={()=>signOut(auth)}>
-          <IoIosLogOut size={30} />
+          <IoIosLogOut size={30} color='white' />
         </a>
       </div>
     </div>

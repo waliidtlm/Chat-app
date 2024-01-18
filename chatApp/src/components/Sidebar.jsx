@@ -11,7 +11,7 @@ function Sidebar() {
     <div className="sidebar">
       <Navbar/>
       <Search/>
-      <List/>
+     
     </div>
        
     
