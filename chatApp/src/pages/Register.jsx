@@ -5,10 +5,13 @@ import { doc, setDoc } from "firebase/firestore";
 import React from 'react'
 import "../styles/RegisterLogin.css"
 import { FcAddImage } from "react-icons/fc";
-import {useNavigate} from "react-router-dom"
+import {useNavigate, Link} from "react-router-dom"
 
 
 function Register() {
+  const navigate = useNavigate()
+
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const displayName = e.target[0].value;
@@ -52,7 +55,9 @@ function Register() {
               email,
               photoURL: downloadURL,
             });
-            console.log('User Created')
+            await setDoc(doc(db, "userChats", response.user.uid),{})
+            navigate("/")
+
           });
         }
       );
@@ -78,7 +83,7 @@ function Register() {
             <FcAddImage size={50} /> Add Avatar
           </label>
           <button type="submit" className="sign">Sign Up</button>
-          <p>You have an account ? Login Here </p>
+          <p>You have an account ? Login <Link to="/login">Here</Link></p>
         </form>
       </div>
     </div>
