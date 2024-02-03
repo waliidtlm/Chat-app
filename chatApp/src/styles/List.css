@@ -21,3 +21,6 @@ overflow: auto;
 img{
     height: 50px;
 }
+p{
+    font-size: 1rem;
+}

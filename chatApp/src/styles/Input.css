@@ -6,8 +6,9 @@
 
 }
 .bottom-input{
-    background-color: #113f676d;
+    background-color: #113f6741;
     width: 90%;
+    height: 40px;
 }
 .input-icons{
     gap: 20px;

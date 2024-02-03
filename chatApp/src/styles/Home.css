@@ -8,10 +8,10 @@
 }
 .chat-container{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 5fr;
     border: 1px solid;
-    width: 60%;
-    height: 80vh;
+    width: 90%;
+    height: 90vh;
     
     border-radius: 15px;
     overflow: hidden;
